@@ -21,3 +21,15 @@ def fibonacci_iterative(num):
         print(number)
 
 fibonacci_iterative(7)
+
+
+#Solution to Problem 7: Recursion
+def factorial_recursive(num):
+
+           if num == 1:
+                  return num
+    else:
+                 return num * factorial_recursive(num - 1)
+
+print(factorial_recursive(10))
+
