@@ -15,3 +15,21 @@
 #between the two inputs as long as any of the if-conditions
 #are not met, when a condition is met, the function
 #will print the replacement output
+
+
+
+
+
+
+def fizzbuzz(start, end):
+    for numberber in range(start, end+1):
+        if numberber % 5 == 0 and numberber % 3 == 0:
+            print("fizzbuzz")
+        elif numberber % 3 == 0:
+            print("fizz")
+        elif numberber % 5 == 0:
+            print("buzz")
+        else:
+            print(numberber)
+
+print(fizzbuzz(3,8))
