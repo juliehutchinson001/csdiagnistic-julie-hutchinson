@@ -1,0 +1,12 @@
+An algorithm is a step by step instruction solution 
+that if followed carefully, and sequentially, it will
+solve a problem. Example: an algorithm to add 3 + 4 is
+
+1. Define a variable and assign the value of three
+            number_one = 3
+2. Define another variable and assign the value of four
+            number_two = 4
+3. Add the two variables
+            number_one + number_two = 3 + 4 = 7
+4. print the solution
+            print(number_one + number_two)
