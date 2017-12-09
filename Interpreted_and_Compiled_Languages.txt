@@ -1,0 +1,31 @@
+An interpreted language converts high level languages
+into low level languages. This process of translation
+is carried away line by line, so it reads the high level
+program and executes it before continuing with the next
+line of translation. 
+
+One strength of this method is that error is found as 
+soon as is encountered, so the process is stopped until 
+the error is resolved. Another one, the process of 
+debugging is easy because of the previous explanation.
+Also, this method is cross-platform so it is simpler to
+be utilized in different machines. 
+
+However, during this process, an interpreter is always
+going to be needed, so the process of converting a source
+code to machine code is rather slow. Also, a source code
+is made visible under this method.
+
+A compiled language reads the source code and immediately
+translates it to machine code, before the program starts
+running. In this case, once a program is compiled, it can
+be executed many times without further translation.
+
+The advantages of this way of translation are the speed
+because it is rather fast the execution of the machine
+code language, and the source code is kept private.
+
+The disadvantages include its inflexibility, it requires
+an extra step to be able to run the translated file, so
+it needs to be recompiled every time it is runned, and it
+is not cross-platform.
