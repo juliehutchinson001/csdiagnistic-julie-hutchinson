@@ -1,0 +1,10 @@
+Immutable
+Tuples (Saves memory)
+
+Mutable
+Dictionaries (Key value pairs)
+List (Collection of items that have an index)
+
+A generator is a function that returns a generator item
+it generates a sequence of items.
+
