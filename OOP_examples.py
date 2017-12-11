@@ -1,17 +1,32 @@
-#class Car:
-#
-#def __init__(self, color):
-#self.num_wheels = 4
-#self.make = 'chrisler'
-#self.model = 'PT Cruiser'
-#self.color = color
-#self.speed = 100
-#
-#def sound(self):
-#print("Beep Beep!")
-#
-#def description(self):
-#print('{}:{}, {}:{}, {}:{}, {}:{}, {}:{}'.format('make', self.make, 'model', self.model, 'color', self.color, 'speed', self.speed, 'num_wheels', self.num_wheels))
+#Solution Problem 10: object oriented programming
+class Car:
+
+def __init__(self, color):
+self.num_wheels = 4
+self.make = 'chrisler'
+self.model = 'PT Cruiser'
+self.color = color
+self.speed = 100
+
+def sound(self):
+print("Beep Beep!")
+
+def description(self):
+print('{}:{}, {}:{}, {}:{}, {}:{}, {}:{}'.format('make', self.make, 'model', self.model, 'color', self.color, 'speed', self.speed, 'num_wheels', self.num_wheels))
+
+
+
+#Solution Problem 11: Inheritance
+
+Inheritance is a method of grouping data in an efficient
+manner with different purposes and benefits
+for programmers since it allows to avoid repeating
+the same code over and over. Programmers, through
+inheritance, are able to import, from a different
+code a section that might be needed.
+
+
+#Solution Problem 12 Superclasses
 
 class Automobile(object):
     def __init__(self, color):
