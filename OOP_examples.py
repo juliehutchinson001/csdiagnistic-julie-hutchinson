@@ -31,10 +31,10 @@ code a section that might be needed.
 class Automobile(object):
     def __init__(self, color):
         self.color = color
-        self.model = "Honda"
+        self.model = "Chrisler"
 
     def sound(self):
-        print "Bee Beep!"
+        print "Beep Beep!"
 
     def description(self):
         print vars(self)
@@ -43,21 +43,21 @@ class Motorcycle(Automobile):
     def __init__(self, color):
         Automobile.__init__(self, color)
         self.wheelNum = 2
-        self.make = "Ducati?"
+        self.make = "WhoKnows"
         self.top_speed = 70
 
 class Car(Automobile):
     def __init__(self, color):
         Automobile.__init__(self, color)
         self.wheelNum = 4
-        self.make = "Accord?"
+        self.make = "Ford"
         self.top_speed = 100
 
 class SemiTruck(Automobile):
     def __init__(self, color):
         Automobile.__init__(self, color)
         self.wheelNum = 16
-        self.make = "Big Rig?"
+        self.make = "GuysKnows"
         self.top_speed = 60
 
 if __name__ == "__main__":
